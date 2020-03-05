@@ -8,3 +8,5 @@ Voor de responsive functie heb ik gebruik gemaakt van IxD1. Het was een oefening
 De informatie die te vinden is op het dashboard lijkt me wel relevant voor de reizigers, omdat het niet al te ingewikkeld is. Ik koos voor deze visualisatie, want het is minimalistisch en maakt de website niet chaotisch. Als je over de charts hovert, zie je ook extra gegegevens.
 
 Verder kon ik niks beters verzinnen om de website aantrekkelijker te maken. Ik probeerde veel dingen uit en merkte dat het vaak fout ging, dus liet ik het ook bij het ontwerp die ik nu heb. 
+
+Man-Wei Cheung (17091977 - klas 2C)
