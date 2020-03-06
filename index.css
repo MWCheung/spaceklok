@@ -1,0 +1,134 @@
+* {
+	background-color: #121212;
+	background-image: url('https://media3.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif');
+	color: white;
+	font-family: "Lucida Sans Unicode"
+}
+
+h1 {
+	padding: 25px;
+	text-align: center
+}
+
+#spaceship {
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 100%
+}
+
+p {
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 100%
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)	{
+#donutchart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%
+}
+
+#curve_chart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%
+}
+
+#chart_div {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%
+}
+
+#piechart {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	width: 100%
+}
+
+#spaceship {
+	display: block;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 765px
+}
+
+p {
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 765px
+}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px)	{
+#spaceship {
+	display: block;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 765px
+}
+
+p {
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 765px
+}
+}
+
+@media only screen and (min-width: 1440px)	{
+#spaceship {
+	display: block;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 765px
+}
+p {
+	display: block;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	width: 765px
+}
+}
+
+section{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center
+}
+
+article{
+	flex-basis: 300px;
+	flex-grow: 1;
+	margin: 10px;
+	order: 1;
+}
