@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<link href="index.css" type="text/css" rel="stylesheet"/>
+		<title>ITS</title>
+	</head>
+		<body>
+			<p id="demo"></p>
+			<h1>ITS Clock</h1>
+			<br />
+			<br />
+			<section>
+				<article>
+					<h2>Intro</h2>
+					<p id="articletext">After traveling with the <i> Interplanetary 
+					Transport System </i>(ITS), people have been wondering what 
+					time it is on Earth. So this page shows you the actual 
+					time of the Earth. It's the timezone of Amsterdam, The 
+					Netherlands. We want you to feel comfortable by knowing 
+					the timing you've always have known. Also we'll show you 
+					here the activities of the week.</p>
+				</article>
+				<article>
+					<p id ="day"><b><u>MONDAY</u></b> - March 9th</p>
+					<p id="daytext"><strike><b>8 a.m.</b> wake up</strike><br />
+					   <strike><b>9 a.m.</b> breakfast</strike><br />
+					   <b>10 a.m. - 11.30 a.m.</b> speeddate<br />
+					   <b>12 p.m.</b> lunch<br />
+					   <b>1 p.m. - 2 p.m.</b> going out for a walk<br />
+					   <b>6 p.m. - 7.30 p.m.</b> dinner<br />
+					   <b>8 p.m. - 9.30 p.m.</b> board games<br />
+					   <b>11 p.m.</b> bedtime</p>
+				</article>
+				<article>
+					<p id="day"><b><u>TUESDAY</u></b> - March 10th</p>
+					<p id="daytext"><b>9 a.m.</b> wake up<br />
+						<b>10 a.m.</b> breakfast <br />
+						<b>11 a.m. - 12.30 p.m.</b> pictionary<br />
+						<b>1 p.m.</b> lunch <br />
+						<b>2.30 p.m. - 4.30 p.m.</b> sport activities<br />
+						<b>6 p.m. - 7.30 p.m.</b> dinner<br />
+						<b>8 p.m. - 9.30 p.m.</b> painting class<br />
+						<b>12 p.m.</b> bedtime</p>
+				</article>
+				<article>
+					<p id="day"><b><u>WEDNESDAY</u></b>  - March 11th</p>
+					<p id="daytext"><b>8 a.m.</b> wake up<br />
+					<b>9 a.m.</b> breakfast<br />
+					<b>10 a.m. - 11 a.m.</b> going out for a walk<br />
+					<b>1 p.m.</b> lunch<br />
+					<b>2 p.m.</b> pick out outfits for the photoshoot<br />
+					<b>3 p.m. - 6 p.m.</b> photoshoot<br />
+					<b>7 p.m. - 8.30 p.m.</b> dinner<br />
+					<b>12 a.m.</b> bedtime</p>
+					
+				</article>
+				<article>
+					<p id="day"><b><u>THURSDAY</u></b>  - March 12th</p>
+					<p id="daytext"><b>7.30 a.m.</b> wake up<br />
+					<b>8.30 a.m.</b> breakfast<br />
+					<b>10 a.m. - 11 a.m.</b> group excercise<br />
+					<b>11 a.m</b> vote for tonight's movie<br />
+					<b>12.30 p.m.</b> lunch<br />
+					<b>1.30 p.m. - 3 p.m.</b> board games<br />
+					<b>5.30 p.m. - 7 p.m.</b> dinner<br />
+					<b>7 p.m. - 9.30 p.m.</b> movie time<br />
+					<b>11 p.m.</b> bedtime</p>
+				</article>
+				<article>
+					<p id="day"><b><u>FRIDAY</u></b> - March 13th</p>
+					<p id="daytext"><b>7 a.m.</b> wake up<br />
+					<b>8 a.m.</b> breakfast<br />
+					<b>9.30 a.m. - 11.30 a.m.</b> yoga class<br />
+					<b>12 p.m.</b> lunch<br />
+					<b>1 p.m. - 2 p.m.</b> going out for a walk<br />
+					<b>4 p.m. - 7 p.m. </b> sculpture class<br />
+					<b>7.30 p.m.</b> dinner<br />
+					<b>12 a.m.</b> bedtime</p>
+				</article>
+				<article>
+					<p id="day"><b><u>SATURDAY</u></b> - March 14th</p>
+					<p id="daytext"><b>8 a.m.</b> wake up<br />
+					<b>9 a.m.</b> breakfast<br />
+					<b>10 a.m. - 1 p.m.</b> visiting another planet<br />
+					<b>1.30 p.m.</b> lunch<br />
+					<b>3 p.m. - 5 p.m.</b> story time<br />
+					<b>6 p.m.</b> dinner<br />
+					<b>7.30 p.m. - 8 p.m.</b> going out for a walk<br />
+					<b>11 p.m.</b> bedtime</p>
+				</article>
+				<article>
+					<p id="day"><b><u>SUNDAY</u></b> - March 15th</p>
+					<p id="daytext">We'll announce Sunday's schedule on
+					Friday, March 13th. All we know is that we'll let
+					you vote for a movie to watch that evening after dinner.</p>
+				</article>
+			</section>
+		<script>
+			var myVar = setInterval(myTimer, 1000);
+
+			function myTimer() {
+			  var d = new Date();
+			  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+			}
+			
+			var now = new Date();
+			var hours = now.getHours();
+			//Keep in code - Written by Computerhope.com
+			//Place this script in your HTML heading section
+			document.bgColor="#000000";
+			//18-19 night
+			if (hours > 17 && hours < 20){
+			 document.write ('<body style="background-image: url(https://media3.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif)">');
+			}
+			//20-21 night
+			else if (hours > 19 && hours < 22){
+			 document.write ('<body style="background-image: url(https://media3.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif)">');
+			}
+			//22-4 night
+			else if (hours > 21 || hours < 5){
+			 document.write ('<body style="background-image: url(https://media3.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif)">');
+			}
+			//9-17 day
+			else if (hours > 8 && hours < 18){
+			 document.write ('<body style="background-image: url(https://i.gifer.com/INU3.gif)">');
+			}
+			//7-8 day
+			else if (hours > 6 && hours < 9){
+			 document.write ('<body style="background-image: url(https://i.gifer.com/INU3.gif)">');
+			}
+			//5-6 day
+			else if (hours > 4 && hours < 7){
+			 document.write ('<body style="background-image: url(https://i.gifer.com/INU3.gif)">');
+			}
+			else {
+			 document.write ('<body style="background-color: #000000">');
+			}
+		</script>
+		</body>
+</html>

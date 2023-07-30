@@ -1,0 +1,49 @@
+* {
+	color: white;
+	font-family: "Lucida Sans Unicode"
+}
+
+#articletext {
+	padding: 10px
+}
+
+#day {
+	text-align: center
+}
+
+#daytext {
+	margin: 10px
+}
+
+#demo {
+	border-radius: 25px;
+	border-style: groove;
+	font-size: 100px;
+	text-align: center
+}
+
+article{	
+	border-radius: 5px;
+	border-style: groove;
+	height: 350px;
+	flex-basis: 300px;
+	flex-grow: 1;
+	margin: 10px;
+	order: 1;
+}
+
+h1 {
+	font-size: 48px;
+	text-align: center
+}
+
+h2 {
+	text-align: center
+}
+
+section{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
